@@ -47,6 +47,12 @@ proc underline*(s: string): string
 proc hidden*(s: string): string
 proc invert*(s: string): string
 ```
+#### Usage ####
+```nim
+echo "Hello, I am a blue text.".fgBlue
+echo "Hello, I am now also bold!".bold.fgBlue
+```
+
 #### Developer ####
 
  - Mark Molnar
