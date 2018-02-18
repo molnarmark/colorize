@@ -19,7 +19,7 @@ proc fgLightCyan*(s: string): string {.procvar.} = "\e[96m" & s & reset()
 proc fgWhite*(s: string): string {.procvar.} = "\e[97m" & s & reset()
 
 # background colors
-proc bgBlack*(s: string): string {.procvar.} = "\e[41m" & s & reset()
+proc bgBlack*(s: string): string {.procvar.} = "\e[40m" & s & reset()
 proc bgRed*(s: string): string {.procvar.} = "\e[41m" & s & reset()
 proc bgGreen*(s: string): string {.procvar.} = "\e[42m" & s & reset()
 proc bgYellow*(s: string): string {.procvar.} = "\e[43m" & s & reset()
