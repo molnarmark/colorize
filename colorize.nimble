@@ -9,3 +9,8 @@ license       = "MIT"
 
 requires "nim >= 0.16.0"
 
+# Tasks
+
+task test, "Run the test suite":
+  exec "nim c -r tests/test_colorize.nim"
+
